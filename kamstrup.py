@@ -241,8 +241,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('host', help='Hostname or IP or Kamstrup meter')
     parser.add_argument('--port', type=int, help='TCP port', default=1025)
-    parser.add_argument('--registerfile', dest='registerfile', help='Reads registers from previous dumps files instead of'
-                                                                    'bruteforcing the meter.')
     parser.add_argument('--comaddress', dest='communication_address', default=0x3f)
     args = parser.parse_args()
 

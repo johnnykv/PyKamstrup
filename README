@@ -1,3 +1,9 @@
+This is a TCP/IP enabled version of PHK's original PyKamstrup,
+if you are looking for the ConPot source you can find it at: https://github.com/glastopf/conpot
+
+
+***********************
+
 This is an implementation of the Kamstrup Meter Protocol (KMP) based
 on reverse engineering of a traffic dump.
 
